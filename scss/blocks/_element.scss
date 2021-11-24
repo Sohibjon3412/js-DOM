@@ -1,0 +1,48 @@
+.box {
+  position: relative;
+  border: 1px solid;
+}
+.images {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  position: relative;
+}
+.slider-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.slider-buttons {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+}
+.button {
+  width: 40px;
+  height: 40px;
+}
+.btn-left {
+  position: absolute;
+  left: -20px;
+}
+.btn-right {
+  position: absolute;
+  right: -20px;
+}
+@media screen and (max-width: 600px) {
+  .images {
+    height: 300px;
+  }
+  .button {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .images {
+    height: 200px;
+  }
+}

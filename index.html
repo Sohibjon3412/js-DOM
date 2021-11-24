@@ -5,10 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
   <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
-
+  <div class="container">
+    <div id="box" class="box">
+      <div class="images">
+        <img class="slider-img" src="https://cdn.pixabay.com/photo/2015/11/09/14/43/laptop-1035345_960_720.jpg" alt="img">
+        <img class="slider-img" src="https://cdn.pixabay.com/photo/2017/09/26/15/13/computer-2788918_960_720.jpg" alt="img">
+        <img class="slider-img" src="https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_960_720.jpg" alt="img">
+      </div>
+      <div class="slider-buttons">
+        <button id="button btn-left" class="button btn-left" type="button" onclick="sliderImg(-1)"><i class='bx bx-chevron-left'></i></button>
+        <button id="button btn-right" class="button btn-right" type="button" onclick="sliderImg(1)"><i class='bx bx-chevron-right' ></i></button>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
 </body>
 </html>
