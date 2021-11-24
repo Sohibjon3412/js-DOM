@@ -403,6 +403,7 @@ img {
 .box {
   position: relative;
   border: 1px solid;
+  margin-top: 30px;
 }
 
 .images {
